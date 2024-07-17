@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 768px) {
     .container{
-        width: 768px;
+        width: 100%;
     }
 }
 
@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 576px) {
     .container{
-        width: 576px;
+        width: 100%;
     }
     
     .row{
@@ -49,5 +49,11 @@
 
     .steps{
         margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .container{
+        width: 100%;
     }
 }
